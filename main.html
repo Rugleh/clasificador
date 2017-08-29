@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <script src="https://use.fontawesome.com/afe8d235cc.js"></script>
+    <title> Clasificador de procesos </title>
+  </head>
+  <body>
+
+    <div class="container-fluid col-md-8">
+
+
+    <nav class="navbar navbar-light bg-light">
+      <a class="navbar-brand" href="#">Clasificador de procesos </a>
+      <span class="badge badge-danger">alpha v0.02</span>
+    </nav>
+
+    <div class="jumbotron">
+
+        <div class="row">
+          <div class="col-md-4">
+              <div class="form-group">
+                <i class="fa fa-plus" aria-hidden="true"></i> <label for="name">Nombre del proceso</label>
+                <input type="name" class="form-control" id="name" placeholder="Venta de productos">
+              </div>
+              <div class="form-group">
+                <i class="fa fa-money" aria-hidden="true"></i> <label for="input2">Inversión inicial</label>
+                <input type="name" class="form-control" id="inversion" placeholder="50.000">
+              </div>
+              <div class="form-group">
+                <i class="fa fa-line-chart" aria-hidden="true"></i> <label for="input2">Ganancias aproximadas (Al mes)</label>
+                <input type="name" class="form-control" id="ganancias" placeholder="980.000">
+              </div>
+              <div class="form-group">
+                <i class="fa fa-calendar-check-o" aria-hidden="true"></i> <label for="input2">Tolerancia (meses)</label>
+                <input type="name" class="form-control" id="tolerancia" placeholder="980.000">
+              </div>
+              <div class="form-group">
+                <i class="fa fa-usd" aria-hidden="true"></i> <label for="input3">Ganancias totales de la empresa (Al mes)</label>
+                <input type="name" class="form-control" id="ganancias_totales" placeholder="80.000.000">
+              </div>
+              <button id="button" onclick="myFunction()" class="btn btn-outline-success">Calcular</button>
+
+          </div>
+
+          <div class="col-md-2">
+
+          </div>
+
+          <div class="col-md-5 text-center">
+            <div class="container-fluid">
+
+              <div class="card">
+                <div class="card-header">
+                  <h3>Resultado</h3>
+                </div>
+                <div class="card-body">
+                  <h4 class="card-title" id="title"></h4>
+                  <p class="card-text" id="text"></p>
+                  <p class="card-text" id="text2"></p>
+
+
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+
+
+
+    </div>
+
+
+  </div>
+
+
+
+
+  </body>
+  <script type="text/javascript" src="main.js"></script>
+</html>
